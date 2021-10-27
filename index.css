@@ -52,12 +52,12 @@ html {
   
   .theme{
     background-image: url(images/2407699.jpg);
-    width: 169%;
+    width: 200%;
     background-repeat: no-repeat;
-    margin-left: -35%;
-    margin-top:-23%;
-    height: 140vh;
-    object-fit:scale-down;
+    margin-left: -5%;
+    margin-top:-20%;
+    height: 300vh;
+    object-fit: none;
   }
   .itemNav {
     padding: 15px;
