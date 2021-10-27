@@ -1,0 +1,105 @@
+html {
+    scroll-behavior: smooth;
+  }
+  #header {
+    background: url('https://i.pinimg.com/originals/a0/5b/e7/a05be72bed7c744f6d8d5b887b924aa6.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    padding: 20%;
+    margin:0 auto;
+  }
+  .card-img-top {
+    padding: 2rem;
+  }
+  body {
+    font-family: 'Righteous', cursive;
+    background-color: #444;
+  }
+  
+  .navbar {
+    background-color: black;
+    color: white;
+  }
+  
+  .navTitle {
+    color: #ffffff;
+    padding-left: 50px;
+    size: 50px;
+  }
+  
+  .card {
+    background-color: #222;
+    color: wheat;
+    margin:20px;
+    border-radius: 0;
+    height: 100%;
+    box-shadow: 3px 3px 1px #e92929, 5px 5px 1px 
+    #a2e946,7px 7px 1px #297ce9, 9px 9px 1px #e92999;
+    transition: all 0.5s;
+  }
+  
+  .card-text{
+    color:#eee;
+  }
+  
+  .card:hover{
+    box-shadow: 10px 10px 1px #e92929, 20px 20px 1px 
+    #a2e946,30px 30px 1px #297ce9, 40px 40px 1px #e92999;
+    transform: scale(0.95);
+    z-index: 100;
+  }
+  
+  .theme{
+    background-image: url(images/2407699.jpg);
+    width: 169%;
+    background-repeat: no-repeat;
+    margin-left: -35%;
+    margin-top:-23%;
+    height: 140vh;
+    object-fit:scale-down;
+  }
+  .itemNav {
+    padding: 15px;
+  }
+  .gallery-head {
+    font-size: 4rem;
+    text-align: center;
+    padding-bottom: 5%;
+    margin-top: 15%;
+    text-transform: uppercase;
+    color:white;
+    text-shadow: 1px 1px 1px #000;
+  }
+  .lead {
+    font-size: 1.5rem;
+  }
+  .display-3 {
+    font-size: 8rem;
+  }
+  .gallery-icon {
+    color: #000000;
+    text-align: center;
+  }
+  .backToTop {
+    margin-left: 49%;
+    color: #000000;
+    padding: 0.6%;
+    border-radius: 50%;
+    margin-bottom: 4%;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .display-3 {
+      font-size: 4rem;
+    }
+    .lead {
+      font-size: 1.6rem;
+    }
+    .gallery-head {
+      font-size: 2rem;
+    }
+    .navTitle {
+      padding-left: 3px;
+    }
+  }
